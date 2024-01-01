@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gluten:wght@100&family=Rubik+Doodle+Shadow&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../styles/style.css">
+    <title>Contact</title>
+</head>
+<body>
+    <header>
+        <h1>SJ's Portfolio</h1>
+    </header>
+
+    <!-- Navigation bar to the other pages -->
+    <nav>
+        <!-- anchor for our pages -->
+        <a href="/index.html">Home</a>
+        <a href="./hobby.html">Hobby</a>
+        <a href="./contact.html">Contact</a>
+</nav>
+
+    <!-- Section of the Contact me -->
+    <section>
+        <h2>Contact me!</h2>
+        <!-- Form for contacting me -->
+        <form action="https://httpbin.org/post" method="post">
+            <fieldset>
+                <legend>Fill in form</legend>
+                
+                <label for="email">Email</label>
+                <input id="email" autocomplete="email" name="email" aria-required="true" placeholder="Email" required>
+    
+                <label for="name">Name</label>
+                <input id="name" autocomplete="name" name="name" aria-required="true" placeholder="Name" required>
+    
+                <label for="message">Message</label>
+                <textarea id="message" name="message" aria-required="true" placeholder="Message" required></textarea>
+    
+                <!-- Send and Clear buttons -->
+                <button type="submit">Send</button>
+                <button type="reset" class="clear">Clear</button>
+            </fieldset>
+        </form>
+
+    </section>
+
+    <!-- Bottom of the website with contacts and time of creation -->
+    <footer>
+        <p>Serge Junior Szynkarski &copy; 2023 - Present</p>
+        <a href="">LinkedIn</a>
+        <a href="https://github.com/szynner">Github</a>
+    </footer>
+    
+</body>
+</html>
