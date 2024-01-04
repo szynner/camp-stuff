@@ -45,3 +45,18 @@ Aujourd'hui, je vais continuer à apprendre et à travailler sur mon projet de p
 
 
 https://gist.github.com/gokulkrishh/242e68d1ee94ad05f488
+
+## 04/01/24
+
+Yesterday, I completed the portfolio project for the HTML-CSS module.
+
+Didn't face too many difficulties. I just need to become more efficient with my time management. I feel that I could have performed better and progressed more quickly in terms of learning and practicing.
+
+Today, we are commencing the module on Git, which will extend until the end of this week.
+
+
+Hier, j'ai terminé le projet de portfolio pour le module HTML-CSS.
+
+Je n'ai pas rencontré trop de difficultés. J'ai juste besoin de devenir plus efficace dans la gestion de mon temps. J'ai le sentiment que j'aurais pu mieux performer et progresser plus rapidement en termes d'apprentissage et de pratique.
+
+Aujourd'hui, nous commençons le module sur Git, qui se poursuivra jusqu'à la fin de la semaine.
