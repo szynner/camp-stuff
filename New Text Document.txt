@@ -30,5 +30,20 @@ if __name__ == "__main__":
 
 
 ---------
-git checkout main
-git merge feature3
+git clone https://github.com/debbabi/mastergit.git
+
+cd mastergit
+git ls
+git log --oneline --graph --decorate --all
+git status
+git merge origin/feature3
+git log --oneline --graph --decorate --all
+git checkout feature2
+git rebase main
+git checkout master
+git merge feature2
+
+git checkout feature1
+git rebase master
+git checkout master
+git merge feature1
