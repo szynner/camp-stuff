@@ -74,3 +74,17 @@ Hier a marqué le début de notre exploration dans le monde de Git. Nous avons p
 Bien que j'aie progressé, il reste beaucoup à comprendre. J'ai l'intention de consacrer du temps supplémentaire pendant les week-ends pour approfondir ma compréhension et améliorer ma familiarité avec Git.
 
 Aujourd'hui, je poursuis avec des exercices englobant des concepts tels que la fusion, le rebasage, l'écrasement (squashing) et le travail d'équipe collaboratif.
+
+------------------
+
+"Last Friday, we continued our Git course, delving into topics such as merges, rebase, and squashing. Additionally, we collaborated on a substantial project to gain a better grasp of pull requests.
+
+Despite acquiring a considerable amount of knowledge in just two days, there is still a wealth of information about Git that I need to explore.
+
+Today, we are embarking on a three-day journey into the JavaScript Course."
+
+"Vendredi dernier, nous avons poursuivi notre cours sur Git, en approfondissant des sujets tels que les fusions, le rebase et le squashing. De plus, nous avons collaboré sur un projet d'envergure afin de mieux comprendre les demandes de tirage.
+
+Malgré l'acquisition d'une quantité importante de connaissances en seulement deux jours, il me reste encore beaucoup à apprendre sur Git.
+
+Aujourd'hui, nous entamons une aventure de trois jours dans le cours de JavaScript."
