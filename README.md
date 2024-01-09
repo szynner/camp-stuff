@@ -88,3 +88,17 @@ Today, we are embarking on a three-day journey into the JavaScript Course."
 Malgré l'acquisition d'une quantité importante de connaissances en seulement deux jours, il me reste encore beaucoup à apprendre sur Git.
 
 Aujourd'hui, nous entamons une aventure de trois jours dans le cours de JavaScript."
+
+10/
+
+Yesterday I continued JavaScript exercises, mainly conditionals, for loops, certain built-in objects, functions, and classes. Ended the day learning DOM and how we can change elements of an HTML document.
+
+There's so much information in such a short time. It can feel very overwhelming at times. I also noticed I need to take my time and read the instructions more thoroughly.
+
+Start and finish exercise 7. Try and learn as much as possible for today.
+
+Hier, j'ai continué les exercices de JavaScript, principalement sur les conditionnels, les boucles for, certains objets intégrés, les fonctions et les classes. J'ai terminé la journée en apprenant le DOM et comment nous pouvons changer les éléments d'un document HTML.
+
+Il y a tellement d'informations en si peu de temps. Cela peut parfois me sembler très accablant. J'ai également remarqué que je dois prendre mon temps et lire les instructions plus attentivement.
+
+Commencer et terminer l'exercice 7. Essayer d'apprendre autant que possible pour aujourd'hui.
