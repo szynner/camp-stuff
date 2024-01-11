@@ -102,3 +102,17 @@ Hier, j'ai continué les exercices de JavaScript, principalement sur les conditi
 Il y a tellement d'informations en si peu de temps. Cela peut parfois me sembler très accablant. J'ai également remarqué que je dois prendre mon temps et lire les instructions plus attentivement.
 
 Commencer et terminer l'exercice 7. Essayer d'apprendre autant que possible pour aujourd'hui.
+
+11
+
+Yesterday we finished the JavaScript course
+
+understanding and manipulating the dom can be tough to learn
+
+Today we are starting Network systems
+
+Hier, nous avons terminé le cours de JavaScript.
+
+Comprendre et manipuler le DOM peut être difficile à apprendre.
+
+Aujourd'hui, nous commençons les systèmes réseau.
