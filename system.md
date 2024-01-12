@@ -104,6 +104,13 @@ By mastering these SSH skills, you'll be well-equipped to securely manage and in
 - **Real-World Example**: A misconfiguration on the server or an error in a web application can lead to a 500 error.
 - **Action**: Users can try reloading the page. Web administrators need to check server logs and backend resources to diagnose and fix the issue.
 
+### Lqyout
+- 1xx Informational
+- 2xx Success
+- 3xx Redirection
+- 4xx Client Error
+- 5xx Server Error
+
 ### Validating the Task
 
 To validate your understanding of HTTP response codes:
@@ -147,6 +154,7 @@ Let's take the example URL: `https://web.example.com:8080/page/12?filter=term#se
 
 - **Description**: The port number follows the domain name, separated by a colon. Here, `8080` is a custom port number.
 - **Significance**: Used to access specific services on the server. Port numbers are essential when the default ports (80 for HTTP, 443 for HTTPS) are not used.
+- ports are in 3 0-1023  sysetem | 1024- 49151 user | 49152 - 65535 dynamic
 
 ### Path (`/page/12`):
 
@@ -361,3 +369,4 @@ To demonstrate your proficiency in this task:
 - Familiarize yourself with the network and security policies, especially in a restricted or enterprise environment, to ensure compliance during file transfers.
 
 By mastering these skills, you'll be well-equipped to handle file transfers in various networking and system administration contexts, enhancing your capability in managing data and resources effectively across systems.
+

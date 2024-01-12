@@ -116,3 +116,19 @@ Hier, nous avons terminé le cours de JavaScript.
 Comprendre et manipuler le DOM peut être difficile à apprendre.
 
 Aujourd'hui, nous commençons les systèmes réseau.
+
+12
+
+
+
+"Yesterday, we began our network system course. In this course, we are learning fundamental commands and how to navigate different servers.
+
+Since everything is brand new, there's a lot to learn. But I'm having fun.
+
+Today, we will continue the course. We must also undergo evaluations with the teacher to validate our understanding of what we've learned."
+
+"Hier, nous avons commencé notre cours sur les systèmes réseau. Dans ce cours, nous apprenons les commandes fondamentales et comment naviguer sur différents serveurs.
+
+Puisque tout est tout nouveau, il y a beaucoup à apprendre. Mais je m'amuse.
+
+Aujourd'hui, nous allons continuer le cours. Nous devons également passer des évaluations avec le professeur pour valider notre compréhension de ce que nous avons appris."
