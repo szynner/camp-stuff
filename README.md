@@ -132,3 +132,34 @@ Today, we will continue the course. We must also undergo evaluations with the te
 Puisque tout est tout nouveau, il y a beaucoup à apprendre. Mais je m'amuse.
 
 Aujourd'hui, nous allons continuer le cours. Nous devons également passer des évaluations avec le professeur pour valider notre compréhension de ce que nous avons appris."
+
+---
+
+email 
+
+Bonjour Audrey,
+
+J'ai un rendez-vous obligatoire pour rencontrer la Direction de la Solidarité de l'Isère (Caf) le vendredi 26 janvier à 09h30.
+
+Je devrai donc manquer la session du matin ce jour-là.
+
+Cordialement,
+
+Serger Junior Szynkarski
+
+--------------------
+
+15/01
+
+Last Friday, I completed all the skills based on network systems: commands, how to link to a server, SSH, and finished the exercises that were asked.
+
+No issues.
+
+Today, we'll be starting the long-awaited Java programming. Hope it's fun.
+
+
+Le vendredi dernier, j'ai complété toutes les compétences liées aux module systèmes de réseau : commandes, comment se connecter à un serveur, SSH, et j'ai terminé les exercices qui étaient demandés.
+
+Pas de problème.
+
+Aujourd'hui, nous allons commencer la programmation en Java.
