@@ -291,3 +291,92 @@ Feel free to modify and expand upon this code to include more advanced features 
 
 
 
+Exercise 2: Java Solutions and Explanations
+1. Finding the Smallest Square Greater Than a Given Number
+java
+Copy code
+public static int smallestSquareGreaterThan(int n) {
+    int i = 0; // Initialize a counter variable 'i' to 0
+    while (i * i <= n) { // Check if the square of 'i' is less than or equal to 'n'
+        i++; // Increment 'i' to find the next square number
+    }
+    return i * i; // Return the smallest square greater than 'n'
+}
+Explanation:
+int i = 0;: Start from 0 as we are looking for a square number.
+while (i * i <= n) {: Keep looping as long as the square of 'i' is not greater than 'n'.
+i++;: Increment 'i' to check the next square number.
+return i * i;: Once the loop ends, 'i' will be the smallest number whose square is greater than 'n'.
+2. Finding the Largest Square Less Than a Given Number
+java
+Copy code
+public static int largestSquareLessThan(int n) {
+    int i = 1; // Initialize a counter variable 'i' to 1
+    while ((i + 1) * (i + 1) < n) { // Check if the square of 'i + 1' is still less than 'n'
+        i++; // Increment 'i' to find the next square number
+    }
+    return i * i; // Return the largest square less than 'n'
+}
+Explanation:
+int i = 1;: Start from 1 as 0's square is 0 and not informative in this context.
+while ((i + 1) * (i + 1) < n) {: Increment 'i' as long as the square of the next number ('i + 1
+') is still less than 'n'.
+
+i++;: We increment 'i' to find the next potential largest square less than 'n'.
+return i * i;: When the loop ends, 'i' is the largest number whose square is less than 'n'. The loop condition checks (i + 1) * (i + 1) < n because we want to find the point just before the square of a number exceeds 'n'.
+These Java functions demonstrate the use of a simple loop and mathematical calculations to solve the given problems. The logic is straightforward and focused on finding the exact point where the square of a number meets the specified conditions (either just exceeding or just below the given number 'n').
+
+User
+Now Exercice 3 – Suite de Fibonacci, in the To do : part you have two things to do. Can you write the code for both ans of course your step by step comments describing each line of code
+ChatGPT
+Exercise 3 – Suite de Fibonacci, involves two tasks:
+
+Creating a fibo Function: This function takes an integer as a parameter, representing the number of Fibonacci numbers to display. It returns these numbers in an integer array.
+
+Creating an approximation_fibo Function: This function takes a floating-point number, epsilon, as a parameter, representing the maximum allowed approximation error. It returns the last two integers of the Fibonacci sequence that meet the approximation condition related to epsilon.
+
+Let's write the Java code for these tasks with step-by-step explanations.
+
+Task 1: fibo Function
+java
+Copy code
+public static int[] fibo(int n) {
+    if (n <= 0) return new int[0]; // Handle edge case where n is not positive
+    int[] fibNumbers = new int[n]; // Create an array to store Fibonacci numbers
+    fibNumbers[0] = 0; // First number of Fibonacci series
+    if (n > 1) {
+        fibNumbers[1] = 1; // Second number of Fibonacci series
+        for (int i = 2; i < n; i++) {
+            fibNumbers[i] = fibNumbers[i - 1] + fibNumbers[i - 2]; // Sum of the two preceding numbers
+        }
+    }
+    return fibNumbers; // Return the array containing Fibonacci numbers
+}
+Explanation:
+if (n <= 0) return new int[0];: Handles cases where the input is zero or negative.
+int[] fibNumbers = new int[n];: Initializes an array to hold Fibonacci numbers.
+fibNumbers[0] = 0;: Sets the first number in the Fibonacci sequence.
+if (n > 1) {: Checks if the array should contain more than one number.
+The for loop calculates each subsequent Fibonacci number.
+return fibNumbers;: Returns the array of Fibonacci numbers.
+Task 2: approximation_fibo Function
+java
+Copy code
+public static int[] approximation_fibo(double epsilon) {
+    int a = 0, b = 1; // Initializing the first two Fibonacci numbers
+    while (Math.abs((double) b / a - 1.618033988749895) > epsilon) { // Check if the approximation condition is met
+        int temp = a + b; // Calculate the next Fibonacci number
+        a = b; // Shift the window
+        b = temp; // Update
+the new value.
+}
+return new int[]{a, b}; // Return the last two Fibonacci numbers that satisfy the condition
+}
+
+Explanation:
+int a = 0, b = 1;: Initializes the first two numbers of the Fibonacci sequence.
+The while loop continues as long as the approximation condition is not met. The condition checks the difference between the ratio of two consecutive Fibonacci numbers (b / a) and the golden ratio (1.618033988749895), against epsilon.
+int temp = a + b;: Calculates the next Fibonacci number.
+a = b; and b = temp;: Updates the last two Fibonacci numbers.
+return new int[]{a, b};: Returns the pair of Fibonacci numbers that meet the approximation condition.
+This implementation of the approximation_fibo function effectively finds the point in the Fibonacci sequence where the ratio of consecutive numbers approximates the golden ratio within the specified error margin, epsilon.
