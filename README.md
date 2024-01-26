@@ -163,3 +163,7 @@ Le vendredi dernier, j'ai complété toutes les compétences liées aux module s
 Pas de problème.
 
 Aujourd'hui, nous allons commencer la programmation en Java.
+
+Bonjour Audrey,
+
+Je suis de retour en classe.
