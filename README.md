@@ -167,3 +167,11 @@ Aujourd'hui, nous allons commencer la programmation en Java.
 Bonjour Audrey,
 
 Je suis de retour en classe.
+
+Hier, nous avons collaboré sur un projet de groupe intitulé "Bibliothèque de Jeux". 
+Travailler en équipe peut parfois présenter des défis. 
+Aujourd'hui, nous prévoyons de poursuivre l'avancement du projet que nous avons commencé hier.
+
+Yesterday, we collaborated on a group project titled "Game Library." 
+Working in a team can sometimes present challenges. 
+Today, we plan to continue advancing the project we started yesterday.
